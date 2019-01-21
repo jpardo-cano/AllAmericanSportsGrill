@@ -1556,6 +1556,9 @@
    .sec-sub-title {
 	    font-size: 20px;
 	}
+    #locations{
+        padding-left: 9%
+    }
 	.slider-main .dsc a{
 		padding:8px 20px;
 	}
