@@ -38,7 +38,7 @@
 	    margin: 0 0 23px;
 	}
 	.menu-area .single-menu-area .cl-single-menu .overlay{
-		padding: 20px 6px 15px;
+		padding: 20px 6px 0px;
 	}
 	.menu-area .single-menu-area .cl-single-menu .overlay .short-desc .read-more{
 		left: 20%;
