@@ -8,6 +8,12 @@
 	.our-story .inner{
 		top: 30px;
 	}
+    .our-branches-btm{
+        height: 68%;
+    }
+    #locations{
+        padding-left: 35%
+    }
 	.testimonial-section .testimonil-details .testimonil-text{
 		margin-left: 0;
 	}
@@ -389,6 +395,7 @@
 	.our-story .container p {
 	  font-size: 11px;
 	}
+    
 }
 
 /* Large devices (desktops, 991px and up) */
@@ -555,6 +562,7 @@
 	#inner .header-top .top-hour li:first-child a{
 		border-left: 0;
 	}
+
 	.event-page-area .inner .images-content{
 		padding-top: 0;
 		padding-bottom: 0;
@@ -1060,6 +1068,9 @@
 	.menus-page-area .dessert-section, .menus-page-area .dinner-section, .menus-page-area .lunch-section, .menus-page-area .breakfast-section{
     	padding: 50px 0 32px;
 	}
+    our-branches-btm{
+        height: 125%;
+    }
 	.our-event-area .images-left img{
 		width: 100%;
 	}
@@ -1422,6 +1433,9 @@
     	font-size: 40px;
     	line-height: 40px;
 	}
+    .our-branches-btm{
+        height: 135%
+    }
 	.sec-sub-title {
 	    font-size: 30px;
 	    margin-bottom: 35px;
@@ -1533,6 +1547,9 @@
 	body{
 		font-size: 14px;
 	}
+    .our-branches-btm{
+        height: 100%
+    }
    .sec-sub-title {
 	    font-size: 20px;
 	}
