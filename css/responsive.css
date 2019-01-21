@@ -1195,7 +1195,11 @@
 	.our-story .inner {
 	    top: 0;
 	    padding: 0 20px;
+        transform: skew(0deg);
 	}
+    .about-bg .middle-text {
+        transform: skew(0deg);
+    }
 	.menus-area .item{
 		width: 100% !important;
 	}
