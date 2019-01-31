@@ -12,7 +12,7 @@
         height: 68%;
     }
     #locations{
-        padding-left: 35%
+        padding-left: 15%
     }
 	.testimonial-section .testimonil-details .testimonil-text{
 		margin-left: 0;
@@ -362,6 +362,7 @@
 	.about-bg .middle-text{
 		padding: 50px 0;
 		height: auto;
+        transform: skew(0deg);
 	}
 	.testimonials-area .container .inner-testimonials .inner{
 		padding: 0;
@@ -395,6 +396,9 @@
 	.our-story .container p {
 	  font-size: 11px;
 	}
+    #locations{
+        padding-left:15%
+    }
     
 }
 
@@ -417,6 +421,17 @@
     	max-width: 700px;
     	margin:0 auto;
     	font-size: 16px;
+    }
+    #locations{
+        padding-left: 32%;
+    }
+    .our-story .inner {
+	    top: 0;
+	    padding: 0 20px;
+        transform: skew(0deg);
+	}
+    .our-branches-btm{
+        height: 55%
     }
 	.menu-area .single-menu-area .cl-single-menu .overlay .short-desc {
 	  line-height: 20px;
@@ -562,7 +577,11 @@
 	#inner .header-top .top-hour li:first-child a{
 		border-left: 0;
 	}
-
+    .our-story .inner {
+	    top: 0;
+	    padding: 0 20px;
+        transform: skew(-15deg);
+	}
 	.event-page-area .inner .images-content{
 		padding-top: 0;
 		padding-bottom: 0;
@@ -633,6 +652,17 @@
 		padding-left: 10px;
 		padding-right: 10px;
 	}
+    .our-branches-btm{
+        height: %;
+    }
+    #locations{
+        padding-left: %
+    }
+    .our-story .inner {
+	    top: 0;
+	    padding: 0 20px;
+        transform: skew(0deg);
+	}
 	.menus-page-area .breakfast-section,
 	.menus-page-area .lunch-section,
 	.menus-page-area .dinner-section,
@@ -657,6 +687,7 @@
 		width: 100%;
 	}
 	.testimonials-area{
+        display: none;
 		padding: 50px 0 !important;
 	}
 	.sec-sub-title{
@@ -680,6 +711,7 @@
 	}
 	.about-bg .middle-text {
     	padding: 0;
+        transform: skew(0deg);
 	}
 	
 	.home2 .header-area{
@@ -745,7 +777,11 @@
 	}
 	.home-gellary-area{
 		background: #fff;
+        display: none;
 	}
+    .gellary-area{
+        display: none;
+    }
 	.opening-hours{
 		background: #fff;
 		padding: 0;
@@ -976,6 +1012,9 @@
 	{
 		background: #f10909;
 	}
+    .gellary-area{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 991px) {
@@ -1013,6 +1052,9 @@
 	body .nav-menu .sub-menu li > a:hover, body .nav-menu ul .active > a {
     	color: #f10909 !important;
 	}
+    .gellary-area{
+        display: none;
+    }
 	
 }
 /* Small devices (landscape phones, less than 768px) */
@@ -1069,7 +1111,7 @@
     	padding: 50px 0 32px;
 	}
     our-branches-btm{
-        height: 125%;
+        height: 100%;
     }
 	.our-event-area .images-left img{
 		width: 100%;
@@ -1408,7 +1450,7 @@
 		padding: 0;
 	}
     #locations{
-        padding-left: 20%
+        padding-left: 26%
     }
 	.slider-main .owl-nav .owl-next{
 		right: 35%;
@@ -1437,7 +1479,7 @@
     	line-height: 40px;
 	}
     .our-branches-btm{
-        height: 135%
+        height: 96%;
     }
 	.sec-sub-title {
 	    font-size: 30px;
@@ -1551,13 +1593,13 @@
 		font-size: 14px;
 	}
     .our-branches-btm{
-        height: 100%
+        height: 105%
     }
    .sec-sub-title {
 	    font-size: 20px;
 	}
     #locations{
-        padding-left: 9%
+        padding-left: 20%;
     }
 	.slider-main .dsc a{
 		padding:8px 20px;
@@ -1706,6 +1748,12 @@
 		font-size: 20px;
 		line-height: 30px;
 	}
+    .testimonials-area{
+        display: none
+    }
+    .home-gellary-area{
+        display: none;
+    }
 }
 
 /* Custom, iPhone Retina */
@@ -1713,5 +1761,14 @@
    .single-blog-page-area .tag-area ul li{
    	float: none;
    }
+    #locations{
+        padding-left: 11%;
+    }
+    .testimonials-area{
+        display: none
+    }
+    .home-gellary-area{
+        display: none;
+    }
 
 }
