@@ -1611,10 +1611,11 @@
 		font-size: 14px;
 	}
     .our-branches-btm{
-        height: 116%
+        height: 116%;
+        display: none;
     }
     #hours{
-        display: none;
+/*        display: none;*/
     }
      #loading-center-absolute{
         padding-left: 6%;
