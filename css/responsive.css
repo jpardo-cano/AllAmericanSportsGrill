@@ -653,10 +653,10 @@
 		padding-right: 10px;
 	}
     .our-branches-btm{
-        height: %;
+        height: 60%;
     }
     #locations{
-        padding-left: %
+        padding-left: 15%
     }
     .our-story .inner {
 	    top: 0;
@@ -1036,15 +1036,25 @@
 	#inner .rs-menu li a {
     	color: #fff;
 	}
+     #loading-center-absolute{
+        padding-left: 3%;
+    }
 	.header-area .container{
 		padding: 0;
 		width: 98.5%;
 	}
+    #locations{
+        padding-left: 15%;
+    }
 	ul.nav-menu{
 		padding: 0 30px;
 	}
 	.rs-menu-toggle{
 		padding-left: 40px;
+/*
+        float: right;
+        background-color: black;
+*/
 	}
 	.rs-menu ul ul {
     	background: #181818;
@@ -1074,7 +1084,12 @@
 	footer .copyright{
 		margin-bottom: 50px;
 	}
-
+     #loading-center-absolute{
+        padding-left: 4.5%;
+    }
+    #locations{
+        padding-left: 27%;
+    }
 	.home-blog-area .article {
     	margin-top: 0;
     	padding-top: 25px;
@@ -1110,7 +1125,7 @@
 	.menus-page-area .dessert-section, .menus-page-area .dinner-section, .menus-page-area .lunch-section, .menus-page-area .breakfast-section{
     	padding: 50px 0 32px;
 	}
-    our-branches-btm{
+    .our-branches-btm{
         height: 100%;
     }
 	.our-event-area .images-left img{
@@ -1452,6 +1467,9 @@
     #locations{
         padding-left: 26%
     }
+     #loading-center-absolute{
+        padding-left: 6%;
+    }
 	.slider-main .owl-nav .owl-next{
 		right: 35%;
 	}
@@ -1594,6 +1612,9 @@
 	}
     .our-branches-btm{
         height: 105%
+    }
+     #loading-center-absolute{
+        padding-left: 6%;
     }
    .sec-sub-title {
 	    font-size: 20px;
@@ -1769,6 +1790,9 @@
     }
     .home-gellary-area{
         display: none;
+    }
+    #loading-center-absolute{
+        padding-left: 8%;
     }
 
 }
